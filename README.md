@@ -1,14 +1,4 @@
-## Architecture
 
-![Architecture](assets/assets:architecture.png)
-
-## Backend Startup
-
-![Backend Startup](assets/assets:backend-startup.png)
-
-## Agent Demo
-
-![Agent Demo](assets/assets:agent-demo.png)# Floe Budget Agent
 
 Autonomous AI financial orchestration agent built with FastAPI, PostgreSQL, LangChain, and x402 credit estimation.
 
@@ -47,6 +37,17 @@ Autonomous AI financial orchestration agent built with FastAPI, PostgreSQL, Lang
 ```bash
 docker start floe-postgres
 
+## Architecture
+
+![Architecture](assets/assets:architecture.png)
+
+## Backend Startup
+
+![Backend Startup](assets/assets:backend-startup.png)
+
+## Agent Demo
+
+![Agent Demo](assets/assets:agent-demo.png)
 source venv/bin/activate
 
 python -m uvicorn app.main:app --reload
