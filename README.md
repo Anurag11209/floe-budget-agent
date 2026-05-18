@@ -37,17 +37,22 @@ Autonomous AI financial orchestration agent built with FastAPI, PostgreSQL, Lang
 ```bash
 docker start floe-postgres
 
-## Architecture
-![Architecture](assets/architecture.png)
-
-![Backend Startup](assets/backend-startup.png)
-
-![Agent Demo](assets/agent-demo.png)
-
 source venv/bin/activate
 
 python -m uvicorn app.main:app --reload
 ```
+
+## Architecture
+
+![Architecture](assets/architecture.png)
+
+## Backend Startup
+
+![Backend Startup](assets/backend-startup.png)
+
+## Agent Demo
+
+![Agent Demo](assets/agent-demo.png)
 
 ## API Example
 
